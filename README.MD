@@ -4,12 +4,16 @@ To run the test example, follow these steps:
 
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/your-username/transactional-data-store.git
+    git clone https://github.com/leunoia/DataProcessing.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd transactional-data-store
+    cd DataProcessing
+    ```
+3. Run example script:
+    ```bash
+    python database.py
     ```
 
 ## Importing the Database Class
@@ -33,5 +37,5 @@ To import the `Database` class into another Python file, follow these steps:
 
 ## Write-Up for assignment improvements
 
-Overall, I think this is a good assignment and would recommend it being given to future students. One improvement I could imagine would be to have some sort of data source that students can use to test their database. This could be a simple csv file or something else that is easily parse. This way they could raad it into their database programatically and see how it performs. 
+Overall, I think this is a good assignment and would recommend it being given to future students. One improvement I could imagine would be to have some sort of data source that students can use to test their database. This could be a simple csv file or something else that is easily parse. This way they could raad it into their database programatically and see how it performs.
 
