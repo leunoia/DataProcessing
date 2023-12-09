@@ -24,7 +24,7 @@ To import the `Database` class into another Python file, follow these steps:
 
 2. In your Python file, add the following import statement:
     ```python
-    from database import Database
+    from DataProcessing import Database
     ```
 
 3. Create an instance of the `Database` class:
