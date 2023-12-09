@@ -31,3 +31,12 @@ class Database:
             raise Exception("No transaction in progress")
         self.transaction_data = {}
         self.transaction_in_progress = False
+if __name__ == "__main__":
+    # Code to test the module
+    db = Database()
+    db.begin_transaction()
+    db.put("key1", "value1")
+    db.put("key2", "value2")
+    print(db.get("key1"))  # Output: value1
+    db.commit()
+    print(db.get("key1"))  # Output: value1
