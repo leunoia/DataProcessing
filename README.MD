@@ -22,12 +22,6 @@ To import the `Database` class into another Python file, follow these steps:
 
 1. Make sure you have cloned the repository and then create another directory at the same level as DataProcessing.
 
-Example Structure:
-
-/
-|
-|_/DataProcessing
-|_/YourProjectHere
 
 
 2. In your Python file, add the following import statement:
